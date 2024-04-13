@@ -1,0 +1,46 @@
+# Cross Border
+- target: read-pay-cross-border
+  engine: mysql
+  port: 3307
+- target: read-cerberus-cross-border
+  engine: mysql
+  port: 3308
+# - target: read-bigdog-cross-border
+#   engine: mysql
+#   port: 3309
+# - target: read-librarian-cross-border
+#   engine: mysql
+#   port: 3310
+
+# Local Latam
+# - target: read-pay-local-latam
+#   engine: mysql
+#   port: 3311
+# - target: read-cerberus-local-latam
+#   engine: mysql
+#   port: 3312
+# - target: read-bigdog-local-latam
+#   engine: mysql
+#   port: 3313
+# - target: read-librarian-local-latam
+#   engine: mysql
+#   port: 3314
+
+# Diamond
+# - target: read-pay-diamond
+#   engine: mysql
+#   port: 3315
+# - target: read-cerberus-diamond
+#   engine: mysql
+#   port: 3316
+# - target: read-bigdog-diamond
+#   engine: mysql
+#   port: 3317
+# - target: read-librarian-diamond
+#   engine: mysql
+#   port: 3318
+
+# Parker
+# - target: read-parker-production
+#   engine: mysql
+#   port: 3319
