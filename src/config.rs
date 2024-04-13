@@ -6,7 +6,7 @@ use serde::Deserialize;
 #[derive(Deserialize)]
 pub struct ConfigConnection {
     pub target: String,
-    pub engine: String,
+    pub r#type: String,
     pub port: u16
 }
 

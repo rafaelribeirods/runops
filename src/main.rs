@@ -30,7 +30,7 @@ async fn main() {
 
     for connection in connections {
         Command::new("rproxy")
-            .arg(connection.engine)
+            .arg(connection.r#type)
             .arg("-c")
             .arg(connection.target)
             .arg("-p")
